@@ -1,11 +1,58 @@
 /* style for overall website */
+body{
+   margin: 0px;
+   padding: 0px;
+   border: 0px;
+   font-family: 'Finlandica', sans-serif;
+   font-family: 'Gentium Book Plus', serif;
+   font-family: 'Roboto', sans-serif;
+}
 
+h1{
+   font-weight: 700;
+   font-size: 2em;
+}
 
 
 /* style for section-one*/
-.first-section{
-   
+#first-section{
+   background-image: url(image/zakat-2.jpg);
+   height:450px ;
+   background-repeat: no-repeat;
+   background-position: left;
+   background-size: cover;   
 }
+
+#donate-header{
+
+   text-align: left;
+   padding-left: 100px;
+   padding-top: 30px;
+   color: white;
+   width: 50%;
+}
+
+
+#donate-header p{
+
+   font-weight: 500;
+   margin-bottom: 30px;
+}
+
+
+#donate-header a{
+
+   text-decoration: none;
+   color: white;
+   background-color: tomato;
+   padding: 10px;
+   border-radius: 5px;
+  
+}
+
+
+
+
 
 
 
