@@ -9,25 +9,29 @@ body{
 }
 
 h1{
-   font-weight: 700;
-   font-size: 2em;
+   font-weight: 500;
+   font-size: 3em;
+}
+
+.common-style{
+
+   text-align: left;
+   padding-left: 100px;
+   padding-top: 30px;
+   margin-bottom: 100px;
 }
 
 
 /* style for section-one*/
 #first-section{
    background-image: url(image/zakat-2.jpg);
-   height:450px ;
+   height:500px ;
    background-repeat: no-repeat;
    background-position: left;
    background-size: cover;   
 }
 
 #donate-header{
-
-   text-align: left;
-   padding-left: 100px;
-   padding-top: 30px;
    color: white;
    width: 50%;
 }
@@ -36,32 +40,42 @@ h1{
 #donate-header p{
 
    font-weight: 500;
-   margin-bottom: 30px;
+   margin-bottom: 40px;
 }
 
 
-#donate-header a{
+.link-button{
 
    text-decoration: none;
    color: white;
    background-color: tomato;
-   padding: 10px;
+   padding: 15px;
    border-radius: 5px;
   
 }
 
 
-
-
-
-
-
-
-
-
-
 /* style for section-two*/
+#second-section{
+   display: flex;
+   width: 90%;
+}
+
+.expose-donation p{
+   width: 80%;
+   margin-bottom: 50px;
+}
+
+#eid-video{
+   margin-top: 50px;
+}
+
+
 /* style for section-three*/
+
+
+
+
 /* style for section-four*/
 /* style for section-five*/
 /* style for section-six*/
