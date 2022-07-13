@@ -10,7 +10,7 @@ body{
 
 h1{
    font-weight: 500;
-   font-size: 3em;
+   font-size: 2em;
 }
 
 .common-style{
@@ -73,10 +73,38 @@ h1{
 
 /* style for section-three*/
 
+#third-section{
+   display: flex;
+   width: 90%;
 
+}
+
+
+#prayer-img img{
+   width: 400px;
+   height: 300px;
+   margin-top: 40px;
+}
+
+
+#need-help{
+   margin-left: 150px;
+}
+
+
+#need-help p{
+   margin-bottom: 40px;
+}
 
 
 /* style for section-four*/
+
+
+
+
+
+
+
 /* style for section-five*/
 /* style for section-six*/
 /* style for section-seven*/
